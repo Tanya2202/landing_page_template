@@ -8,6 +8,7 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/select2.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 	<link href="css/style.css" rel="stylesheet">
 
@@ -285,7 +286,7 @@ rati one voluptateim sequi nesciunt. Neque porro quisquam est qui dolorem ipsum 
 						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Sh85jKmNhaE"></iframe>
 					</div>
 				</div>
-				<div class="col-md-6 row-item-col">
+				<div class="col-md-6">
 					<h2>PROMOTIONAL VIDEO</h2>
 					<p class="large">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
 					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui rati one voluptatem sequi nesciunt. Neque porro quisqu am est qui dolorem ipsum quia dolor sit amet consectetur adipisci velised quia non numquam eius modi tempora</p>
@@ -332,8 +333,46 @@ rati one voluptateim sequi nesciunt. Neque porro quisquam est qui dolorem ipsum 
 			</div>
 	</div>
 </section>
+
+<section id="form">
+	<div class="container text-center">
+		<div class="row">
+            <h2>THE MOST SIMPLE WAY TO LAUNCH YOUR EVENT</h2>
+				<p class="large">Sed ut perspiciatis unde omnis iste natus error<br>sit voluptatem accusantium doloremque laudantium</p>
+		</div>
+<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="section-form">
+						<form id="myForm">
+							<div class="row">
+								<div class="form-group col-md-3">
+									<input type="text" class="form-control" name="name" placeholder="Jane Doe" required>
+								<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+								</div>
+								<div class="form-group col-md-3">
+									<input type="email" class="form-control" name="email" placeholder="Email Address" required>
+								<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+								</div>
+								<div class="form-group col-md-3">
+									<select name="plan" class="form-control form-sel" style="width: 100%; height: 44px;">
+										<option disabled selected class="hidden">Select Plan</option>
+										<option>1 Day - $20</option>
+										<option>2 Day - $25</option>
+										<option>3 Day - $40</option>
+									</select>
+								</div>
+								<button type="submit" class="btn btn-primary">register <i class="fa fa-chevron-circle-right"></i></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>		
+	</div>
+</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/validator.min.js"></script>
+	<script src="js/select2.full.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
