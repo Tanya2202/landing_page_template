@@ -12,4 +12,5 @@ $("#myForm").validator({
 		}
 	});
 $(".form-sel").select2({minimumResultsForSearch: Infinity});
+new WOW().init();
 });
